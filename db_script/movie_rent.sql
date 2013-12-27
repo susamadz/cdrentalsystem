@@ -25,8 +25,16 @@ primary key(rent_id),
 foreign key (cust_id)references tcustomer (cust_id),
 foreign key (cd_id)references tcd (cd_id));
 
-create payment(transact_id char(9),
-transact_date date,
-transact_amount money,
+create payment(transact_id char(9) not null,
+transact_date date not null,
+transact_amount money not null,
 primary key(transact_id),
 foreign key (rent_id)references tcd_rent (rent_id));
+
+
+create cd_cast(cd_id char(9),
+actor_id char (9),
+primary key(cd_id, actor_id),
+foreign key (cd_id)references tcd (cd_id),
+foreign key (actor_id)references actor (actor_id));
+
