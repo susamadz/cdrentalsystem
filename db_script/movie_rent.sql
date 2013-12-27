@@ -16,3 +16,11 @@ cd_genre char(10),
 cd_year_release int,
 cd_rent_rate money,
 primary key(cd_id));
+
+create tcd_rent(rent_id char(9),
+date_rented date,
+date_due date,
+date_return date,
+primary key(rent_id),
+foreign key (cust_id)references tcustomer (cust_id),
+foreign key (cd_id)references tcd (cd_id));
