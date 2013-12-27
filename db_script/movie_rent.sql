@@ -38,3 +38,11 @@ primary key(cd_id, actor_id),
 foreign key (cd_id)references tcd (cd_id),
 foreign key (actor_id)references actor (actor_id));
 
+
+create actor (actor_id char(9) not null,
+actor_fname char(15) not null,
+actor_lname char(15) not null,
+actor_gender char (10),
+primary key (actor_id),
+foreign key (rent_id)references tcd_rent (rent_id),
+unique(actor_fname,actor_lname));
