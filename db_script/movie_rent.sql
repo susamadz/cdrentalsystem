@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿INSERT INTO tcustomer (cust_id, date_of_membership, cust_fname, cust_mname, cust_lname, cust_address, cust_phone, cust_email) VALUES ('2000-0001', '2000-10-12', 'Sharon         ', 'Jarantilla     ', 'Falceso        ', 'Capitol, Pagadian City   ', '062-9250467', 'shynx_swear@yahoo.com    ');
 INSERT INTO tcustomer (cust_id, date_of_membership, cust_fname, cust_mname, cust_lname, cust_address, cust_phone, cust_email) VALUES ('2000-0002', '2000-11-22', 'Haide          ', 'Lamatan        ', 'Molejon        ', 'Capitol, Pagadian City   ', '062-9250234', 'hydzlam@yahoo.com        ');
 INSERT INTO tcustomer (cust_id, date_of_membership, cust_fname, cust_mname, cust_lname, cust_address, cust_phone, cust_email) VALUES ('2001-0003', '2001-02-12', 'Maynard        ', 'Balboa         ', 'Pilongo        ', 'Francisco. Pagadian City ', '062-9250281', 'adonis@yahoo.com         ');
@@ -90,3 +91,6 @@ INSERT INTO cd_cast (cd_id, actor_id) VALUES ('2013-1004', '5002     ');
 -- PostgreSQL database dump complete
 --
 
+=======
+﻿
+>>>>>>> master
