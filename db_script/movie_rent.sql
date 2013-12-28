@@ -1,3 +1,2 @@
-﻿--alter table tcd drop column cd_title;
-alter table tcd add column cd_title char(25) not null; 
-
+﻿alter table tcustomer drop column cust_email;
+alter table tcustomer add column cust_email char(25);
